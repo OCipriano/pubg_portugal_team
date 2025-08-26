@@ -109,12 +109,12 @@ Inclui comandos de estatísticas, informações sobre armas e mapas, destaques d
    PUBGREPORT_API_BASE=URL
    ```
    
-   • PUBG_API_KEY = Key da API do pubg
-   • PUBG_API_BASE = Endpoint da API do pubg
-   • DISCORD_TOKEN = Token do teu bot
-   • ALLOWED_ROLES = Roles do discord autorizados a utilizar o comando `/mapaskey`
-   • BOT_OWNER_ID = ID do utilizador de discord autorizado a utilizar o comando `/mapaskey`
-   • PUBGREPORT_API_BASE = Endpoint da API do pubg report
+   • PUBG_API_KEY = Key da API do pubg.
+   • PUBG_API_BASE = Endpoint da API do pubg.
+   • DISCORD_TOKEN = Token do teu bot.
+   • ALLOWED_ROLES = Roles do discord autorizados a utilizar o comando `/mapaskey`.
+   • BOT_OWNER_ID = ID do utilizador de discord autorizado a utilizar o comando `/mapaskey`.
+   • PUBGREPORT_API_BASE = Endpoint da API do pubg report.
    
 
 5. Configurar intents no Discord Developer Portal
@@ -241,16 +241,16 @@ Para iniciar o bot:
    Heals Used: 298
    Suicides: 1
 ​
-	🎥 Highlights
-	━━━━━━━━━━━━━━━━━━
-	🔗 PUBG Report
-	Open Highlights
+   🎥 Highlights
+   ━━━━━━━━━━━━━━━━━━
+   🔗 PUBG Report
+   Open Highlights
 ​
-	👥 Clan
-	━━━━━━━━━━━━━━━━━━
-	Portugal_Team [PT]
-	Level 20
-	82 members
+   👥 Clan
+   ━━━━━━━━━━━━━━━━━━
+   Portugal_Team [PT]
+   Level 20
+   82 members
    ```
 
 ---
