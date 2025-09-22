@@ -297,10 +297,10 @@ Para iniciar o bot:
 
 ## 📬 Contato
 
-- Desenvolvido por **Cipriano** para o Servidor do Clan **Portugal Team** de PUBG
-- Discord: PT Cipriano#8851
-- Email: redealfa.password440@passmail.com
-- Servidor Discord: 
+- Desenvolvido por **Mikey** para o Servidor do Clan **Portugal Team** de PUBG
+- **Email:** code.wish815@passmail.com
+- **GitHub:** [https://github.com/NunchuckCoder](https://github.com/NunchuckCoder)
+- Servidor Discord: [https://discord.com/invite/ucAXpn48Qk](https://discord.com/invite/ucAXpn48Qk)
 
 ---
 
