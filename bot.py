@@ -32,6 +32,7 @@ from dotenv import load_dotenv
 # ================================================================================ #
 # ------------------------- IMPORTAR SETUPS DOS COMANDOS ------------------------- #
 # ================================================================================ #
+
 from commands.playerstat import setup_playerstat
 from commands.armas import setup_armas
 from commands.mapas import setup_mapas, setup_mapaskey
