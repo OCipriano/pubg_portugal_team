@@ -1,12 +1,24 @@
+# ================================================================================ #
+#                                                                                  #
+# Ficheiro:      pubg_api.py                                                       #
+# Autor:         NunchuckCoder                                                     #
+# Versão:        1.0                                                               #
+# Data:          Julho 2025                                                        #
+# Descrição:     Funções assíncronas para interagir com a API PUBG.                #
+#                Permite obter informações de jogadores, estatísticas, clãs,       #
+#                temporadas e rankings. Inclui tratamento de erros e logs básicos. #
+# Licença:       MIT License                                                       #
+#                                                                                  #
+# ================================================================================ #
+
 import os
 import aiohttp
 from dotenv import load_dotenv
 
-# =========================
-# CONFIGURAÇÃO INICIAL
-# =========================
+# ================================================================================ #
+# ------------------------ CARREGAR VARIÁVEIS DE AMBIENTE ------------------------ #
+# ================================================================================ #
 
-# Carrega variáveis do ficheiro .env
 load_dotenv()
 
 # Chave da API PUBG (obrigatória)
@@ -25,10 +37,9 @@ HEADERS = {
     "Accept": "application/vnd.api+json"
 }
 
-
-# =========================
-# FUNÇÕES DE JOGADOR
-# =========================
+# ================================================================================ #
+# ------------------------------ FUNÇÕES DE JOGADOR ------------------------------ #
+# ================================================================================ #
 
 async def get_player_id(session, username):
     """
@@ -39,11 +50,13 @@ async def get_player_id(session, username):
     async with session.get(url, headers=HEADERS) as resp:
         if resp.status != 200:
             print(f"[ERRO] {resp.status} ao obter ID do jogador: {await resp.text()}")
-            return None
+            return None, None
         data = await resp.json()
         if not data.get("data"):
-            return None
-        return data["data"][0]["id"]
+            return None, None
+
+        player_data = data["data"][0]
+        return player_data["id"], player_data["attributes"]["name"]
 
 
 async def get_player_data(session, shard, player_id):
@@ -57,10 +70,9 @@ async def get_player_data(session, shard, player_id):
             return None
         return await resp.json()
 
-
-# =========================
-# FUNÇÕES DE TEMPORADA
-# =========================
+# ================================================================================ #
+# ----------------------------- FUNÇÕES DE TEMPORADA ----------------------------- #
+# ================================================================================ #
 
 async def get_current_season(session):
     """
@@ -76,10 +88,9 @@ async def get_current_season(session):
                 return season.get("id")
     return None
 
-
-# =========================
-# FUNÇÕES DE ESTATÍSTICAS
-# =========================
+# ================================================================================ #
+# --------------------------- FUNÇÕES DE ESTATÍSTICAS ---------------------------- #
+# ================================================================================ #
 
 async def get_player_stats(session, player_id, season_id, stat_type="normal"):
     """
@@ -125,10 +136,9 @@ async def get_lifetime_stats(session, player_id):
         stats = data.get("data", {}).get("attributes", {}).get("gameModeStats", {})
         return stats.get("squad-fpp") or {}
 
-
-# =========================
-# FUNÇÕES DE CLÃS
-# =========================
+# ================================================================================ #
+# ------------------------------- FUNÇÕES DE CLÃS -------------------------------- #
+# ================================================================================ #
 
 async def get_clan_info(session, player_id):
     """
