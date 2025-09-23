@@ -9,7 +9,9 @@
   <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" />
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" />
 </p>
-
+<p align="center">
+  <img src="https://github.com/NunchuckCoder/pubg_portugal_team/blob/main/logo.png?raw=true" />
+</p>
 <p align="center">Bot oficial da comunidade Portugal Team no Discord desenvolvido em Python.</br>
 Inclui comandos de estatísticas, informações sobre armas e mapas, destaques de jogo, regras do servidor e mensagens automáticas de boas-vindas.
 </p>
@@ -303,11 +305,12 @@ Para iniciar o bot:
 
 ## 📬 Contato
 
-- Desenvolvido por **Mikey** para o Servidor do Clan **Portugal Team** de PUBG
+- Desenvolvido por **NunchuckCoder** para o Servidor do Clan **Portugal Team** de PUBG
 - **Email:** code.wish815@passmail.com
 - **GitHub:** [https://github.com/NunchuckCoder](https://github.com/NunchuckCoder)
-- Servidor Discord: [https://discord.com/invite/ucAXpn48Qk](https://discord.com/invite/ucAXpn48Qk)
-
+- **Servidor Discord:** [https://discord.com/invite/ucAXpn48Qk](https://discord.com/invite/ucAXpn48Qk)
+- **Website:** [http://www.portugalteampubg.pt](http://www.portugalteampubg.pt)
+  
 ---
 
 ## 🛡️ Licença
