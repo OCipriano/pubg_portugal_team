@@ -1,12 +1,18 @@
-# 🤖 PUBG Discord Bot — Portugal Team 🇵🇹
+<h1 align="center">PUBG Discord Bot — Portugal Team 🇵🇹</h1>
 
-![Python](https://img.shields.io/badge/python-3.11%2B-blue)
-![Discord](https://img.shields.io/badge/discord.py-2.3.2-blueviolet)
-![Status](https://img.shields.io/badge/status-active-success)
-![License](https://img.shields.io/badge/license-MIT-green)
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  <img src="https://img.shields.io/badge/JSON-000?style=for-the-badge&logo=json&logoColor=fff" />
+  <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" />
+  <img src="https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black" />
+  <img src="https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi" />
+  <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" />
+</p>
 
-Bot oficial da comunidade Portugal Team no Discord desenvolvido em Python.
+<p align="center">Bot oficial da comunidade Portugal Team no Discord desenvolvido em Python.</br>
 Inclui comandos de estatísticas, informações sobre armas e mapas, destaques de jogo, regras do servidor e mensagens automáticas de boas-vindas.
+</p>
 
 ---
 
