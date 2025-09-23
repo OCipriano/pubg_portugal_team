@@ -1,6 +1,6 @@
 # ================================================================================ #
 #                                                                                  #
-# Ficheiro:      .env                                                              #
+# Ficheiro:      novo_membro.py                                                    #
 # Autor:         NunchuckCoder                                                     #
 # Versão:        1.0                                                               #
 # Data:          Julho 2025                                                        #
